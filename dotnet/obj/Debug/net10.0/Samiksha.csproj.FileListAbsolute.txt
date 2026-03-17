@@ -1,0 +1,14 @@
+C:\Users\bhand\Samiksha\dotnet\bin\Debug\net10.0\Samiksha.exe
+C:\Users\bhand\Samiksha\dotnet\bin\Debug\net10.0\Samiksha.deps.json
+C:\Users\bhand\Samiksha\dotnet\bin\Debug\net10.0\Samiksha.runtimeconfig.json
+C:\Users\bhand\Samiksha\dotnet\bin\Debug\net10.0\Samiksha.dll
+C:\Users\bhand\Samiksha\dotnet\bin\Debug\net10.0\Samiksha.pdb
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.AssemblyInfoInputs.cache
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.AssemblyInfo.cs
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.csproj.CoreCompileInputs.cache
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.dll
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\refint\Samiksha.dll
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.pdb
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.genruntimeconfig.cache
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\ref\Samiksha.dll

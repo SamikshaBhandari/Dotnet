@@ -12,3 +12,4 @@ C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\refint\Samiksha.dll
 C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.pdb
 C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.genruntimeconfig.cache
 C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\ref\Samiksha.dll
+C:\Users\bhand\Samiksha\dotnet\obj\Debug\net10.0\Samiksha.sourcelink.json

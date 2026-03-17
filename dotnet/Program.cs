@@ -1,4 +1,6 @@
-﻿// namespace Samiksha;
+﻿//Sum of NUmber
+
+// namespace Samiksha;
 
 // class Program
 // {
@@ -16,21 +18,42 @@
 //         Console.ReadKey();
 //     }
 // }
-using System;
 
-namespace Byte
+//Bitwise operator 
+// using System;
+
+// namespace Byte
+// {
+//     class Byteoperation
+//     {
+//         static void Main(string[] args)
+//         {
+//             byte first = 14, second = 9;
+//             Console.WriteLine("Bitwise OR of {0} and {1} is {2}.", first, second, first | second);
+//             Console.WriteLine("Bitwise AND of {0} and {1} is {2}.", first, second, first & second);
+//             Console.WriteLine("Bitwise XOR of {0} and {1} is {2}.", first, second, first ^ second);
+//             Console.WriteLine("Bitwise NOT of {0} is {1}.", first, ~first);
+//             Console.WriteLine("Left shift of {0} by 1 is {1}", first, first << 1);
+//             Console.WriteLine("\nPress any key to exit...");
+//             Console.ReadKey();
+//         }
+//     }
+// }
+
+
+
+//Conditional operator
+using System;
+namespace Samiksha
 {
-    class Byteoperation
+    class Program
     {
         static void Main(string[] args)
         {
-            byte first = 14, second = 9;
-            Console.WriteLine("Bitwise OR of {0} and {1} is {2}.", first, second, first | second);
-            Console.WriteLine("Bitwise AND of {0} and {1} is {2}.", first, second, first & second);
-            Console.WriteLine("Bitwise XOR of {0} and {1} is {2}.", first, second, first ^ second);
-            Console.WriteLine("Bitwise NOT of {0} is {1}.", first, ~first);
-            Console.WriteLine("Left shift of {0} by 1 is {1}", first, first << 1);
-            Console.WriteLine("\nPress any key to exit...");
+            Console.WriteLine("Enter a number:");
+            int number = Convert.ToInt32(Console.ReadLine());
+            string result = (number >= 0) ? "Positive" : "Negative";
+            Console.WriteLine("The number is: " + result);
             Console.ReadKey();
         }
     }

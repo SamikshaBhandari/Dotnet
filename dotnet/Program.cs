@@ -43,17 +43,41 @@
 
 
 //Conditional operator
+// using System;
+// namespace Samiksha
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine("Enter a number:");
+//             int number = Convert.ToInt32(Console.ReadLine());
+//             string result = (number >= 0) ? "Positive" : "Negative";
+//             Console.WriteLine("The number is: " + result);
+//             Console.ReadKey();
+//         }
+//     }
+// }
+
+//relational operator
 using System;
+
 namespace Samiksha
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number:");
-            int number = Convert.ToInt32(Console.ReadLine());
-            string result = (number >= 0) ? "Positive" : "Negative";
-            Console.WriteLine("The number is: " + result);
+            Console.WriteLine("Enter first number (a):");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter second number (b):");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n Comparison Results");
+            Console.WriteLine("Is a equal to b? : " + (a == b));
+            Console.WriteLine("Is a greater than b? : " + (a > b));
+            Console.WriteLine("Is a less than b? : " + (a < b));
+            Console.WriteLine("Is a greater than or equal to b? : " + (a >= b));
+            Console.WriteLine("Is a less than or equal to b? : " + (a <= b));
             Console.ReadKey();
         }
     }

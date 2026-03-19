@@ -60,6 +60,30 @@
 // }
 
 //relational operator
+// using System;
+
+// namespace Samiksha
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine("Enter first number (a):");
+//             int a = Convert.ToInt32(Console.ReadLine());
+//             Console.WriteLine("Enter second number (b):");
+//             int b = Convert.ToInt32(Console.ReadLine());
+//             Console.WriteLine("\n Comparison Results");
+//             Console.WriteLine("Is a equal to b? : " + (a == b));
+//             Console.WriteLine("Is a greater than b? : " + (a > b));
+//             Console.WriteLine("Is a less than b? : " + (a < b));
+//             Console.WriteLine("Is a greater than or equal to b? : " + (a >= b));
+//             Console.WriteLine("Is a less than or equal to b? : " + (a <= b));
+//             Console.ReadKey();
+//         }
+//     }
+// }
+
+// arithmetic operator subtract
 using System;
 
 namespace Samiksha
@@ -68,16 +92,15 @@ namespace Samiksha
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter first number (a):");
-            int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter second number (b):");
-            int b = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\n Comparison Results");
-            Console.WriteLine("Is a equal to b? : " + (a == b));
-            Console.WriteLine("Is a greater than b? : " + (a > b));
-            Console.WriteLine("Is a less than b? : " + (a < b));
-            Console.WriteLine("Is a greater than or equal to b? : " + (a >= b));
-            Console.WriteLine("Is a less than or equal to b? : " + (a <= b));
+            int num1, num2, difference;
+            Console.WriteLine("Subtraction Program");
+            Console.WriteLine("Enter the first number:");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second number to subtract:");
+            num2 = Convert.ToInt32(Console.ReadLine());
+            difference = num1 - num2;
+            Console.WriteLine("\nThe result of " + num1 + " - " + num2 + " is: " + difference);
+            Console.WriteLine("\nPress any key to exit..");
             Console.ReadKey();
         }
     }

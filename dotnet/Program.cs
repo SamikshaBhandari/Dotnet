@@ -134,6 +134,39 @@
 
 //Division
 
+// using System;
+
+// namespace Samiksha
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             double num1, num2, quotient;
+//             Console.WriteLine("Division Program");
+//             Console.WriteLine("Enter the number to be divided:");
+//             num1 = Convert.ToDouble(Console.ReadLine());
+//             Console.WriteLine("Enter the divisor (number to divide by):");
+//             num2 = Convert.ToDouble(Console.ReadLine());
+//             if (num2 != 0)
+//             {
+//                 quotient = num1 / num2;
+//                 Console.WriteLine("\nResult: " + num1 + " / " + num2 + " = " + quotient);
+//             }
+//             else
+//             {
+//                 Console.WriteLine("\nError: Cannot divide by zero!");
+//             }
+//             Console.WriteLine("\nPress any key to exit...");
+//             Console.ReadKey();
+//         }
+//     }
+// }
+
+
+
+// modulo program
+
 using System;
 
 namespace Samiksha
@@ -142,22 +175,19 @@ namespace Samiksha
     {
         static void Main(string[] args)
         {
-            double num1, num2, quotient;
-            Console.WriteLine("Division Program");
-            Console.WriteLine("Enter the number to be divided:");
-            num1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter the divisor (number to divide by):");
-            num2 = Convert.ToDouble(Console.ReadLine());
-            if (num2 != 0)
-            {
-                quotient = num1 / num2;
-                Console.WriteLine("\nResult: " + num1 + " / " + num2 + " = " + quotient);
+            int num1, num2, remainder;
+            Console.WriteLine("Modulo Program");
+            Console.WriteLine("Enter a number:");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the divisor:");
+            num2 = Convert.ToInt32(Console.ReadLine());
+            remainder = num1 % num2;
+            Console.WriteLine("\nThe remainder of " + num1 + " / " + num2 + " is: " + remainder);
+                        if(num1 % 2 == 0) {
+                Console.WriteLine(num1 + " is an Even number.");
+            } else {
+                Console.WriteLine(num1 + " is an Odd number.");
             }
-            else
-            {
-                Console.WriteLine("\nError: Cannot divide by zero!");
-            }
-            Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }
     }

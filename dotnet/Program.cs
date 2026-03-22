@@ -167,28 +167,69 @@
 
 // modulo program
 
-using System;
+// using System;
 
+// namespace Samiksha
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             int num1, num2, remainder;
+//             Console.WriteLine("Modulo Program");
+//             Console.WriteLine("Enter a number:");
+//             num1 = Convert.ToInt32(Console.ReadLine());
+//             Console.WriteLine("Enter the divisor:");
+//             num2 = Convert.ToInt32(Console.ReadLine());
+//             remainder = num1 % num2;
+//             Console.WriteLine("\nThe remainder of " + num1 + " / " + num2 + " is: " + remainder);
+//                         if(num1 % 2 == 0) {
+//                 Console.WriteLine(num1 + " is an Even number.");
+//             } else {
+//                 Console.WriteLine(num1 + " is an Odd number.");
+//             }
+//             Console.ReadKey();
+//         }
+//     }
+// }
+
+
+
+// prime or composite
+using System;
 namespace Samiksha
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            int num1, num2, remainder;
-            Console.WriteLine("Modulo Program");
+            int n;
             Console.WriteLine("Enter a number:");
-            num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the divisor:");
-            num2 = Convert.ToInt32(Console.ReadLine());
-            remainder = num1 % num2;
-            Console.WriteLine("\nThe remainder of " + num1 + " / " + num2 + " is: " + remainder);
-                        if(num1 % 2 == 0) {
-                Console.WriteLine(num1 + " is an Even number.");
-            } else {
-                Console.WriteLine(num1 + " is an Odd number.");
+            n = Convert.ToInt32(Console.ReadLine());
+            if (IsPrime(n))
+            {
+                Console.WriteLine("{0} is prime number,", n);
             }
-            Console.ReadKey();
+            else
+            {
+                Console.WriteLine("{0} is composite number,", n);
+            }
+
+        }
+
+        public static bool IsPrime(int n)
+        {
+            int i;
+            for (i = 2; i < n; i++)
+            {
+                if (n % i == 0)
+                {
+                    return false;
+                }
+
+            }
+            return true;
         }
     }
 }
+

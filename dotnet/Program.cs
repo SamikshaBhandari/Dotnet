@@ -1,4 +1,8 @@
-﻿//Sum of NUmber
+﻿using Swap;
+
+
+
+//Sum of NUmber
 
 // namespace Samiksha;
 
@@ -234,3 +238,15 @@
 // }
 
 
+//swap example
+using System;
+namespace Samiksha
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            SwaptwoNumbers.swapnumber();
+        }
+    }
+}

@@ -110,6 +110,7 @@ namespace Samiksha
         public static void Main(string[] args)
         {
             SwaptwoNumbers.swapnumber();
+            Swapwithoutthirdnum.SwaptwoNumberswithout();
         }
     }
 }

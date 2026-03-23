@@ -196,41 +196,41 @@
 
 
 // prime or composite
-using System;
-namespace Samiksha
-{
-    class Program
-    {
-        public static void Main(string[] args)
-        {
-            int n;
-            Console.WriteLine("Enter a number:");
-            n = Convert.ToInt32(Console.ReadLine());
-            if (IsPrime(n))
-            {
-                Console.WriteLine("{0} is prime number,", n);
-            }
-            else
-            {
-                Console.WriteLine("{0} is composite number,", n);
-            }
+// using System;
+// namespace Samiksha
+// {
+//     class Program
+//     {
+//         public static void Main(string[] args)
+//         {
+//             int n;
+//             Console.WriteLine("Enter a number:");
+//             n = Convert.ToInt32(Console.ReadLine());
+//             if (IsPrime(n))
+//             {
+//                 Console.WriteLine("{0} is prime number,", n);
+//             }
+//             else
+//             {
+//                 Console.WriteLine("{0} is composite number,", n);
+//             }
 
-        }
+//         }
 
-        public static bool IsPrime(int n)
-        {
-            int i;
-            for (i = 2; i < n; i++)
-            {
-                if (n % i == 0)
-                {
-                    return false;
-                }
+//         public static bool IsPrime(int n)
+//         {
+//             int i;
+//             for (i = 2; i < n; i++)
+//             {
+//                 if (n % i == 0)
+//                 {
+//                     return false;
+//                 }
 
-            }
-            return true;
-        }
-    }
-}
+//             }
+//             return true;
+//         }
+//     }
+// }
 
 

@@ -1,4 +1,5 @@
 ﻿using Swap;
+using findHCF;
 
 //Sum of NUmber
 
@@ -112,6 +113,7 @@ namespace Samiksha
             SwaptwoNumbers.swapnumber();
             Swapwithoutthirdnum.SwaptwoNumberswithout();
             HCFtwoInteger.hcf(20, 30);
+            HCFtwoInteger.hcfusingforloop();
         }
     }
 }

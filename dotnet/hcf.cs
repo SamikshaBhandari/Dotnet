@@ -14,6 +14,7 @@ namespace findHCF
             }
             Console.WriteLine("HCF is:" + a);
         }
+        //using for loop
         public static void hcfusingforloop()
         {
             int a, b, hcf = 1;

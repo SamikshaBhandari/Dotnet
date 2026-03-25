@@ -25,3 +25,16 @@ class Swapwithoutthirdnum
         Console.WriteLine("num1:\t" + num1 + "\tnum2:\t" + num2);
     }
 }
+class Swaptwostrs
+{
+    public static void swapstring()
+    {
+        string a = "Samiksha";
+        string b = "Aashika";
+        a = a + b;
+        b = a.Substring(0, a.Length - b.Length);
+        a = a.Substring(b.Length);
+        Console.WriteLine("a = " + a);
+        Console.WriteLine("b = " + b);
+    }
+}

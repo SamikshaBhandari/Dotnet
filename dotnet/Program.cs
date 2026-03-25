@@ -114,6 +114,7 @@ namespace Samiksha
             Swapwithoutthirdnum.SwaptwoNumberswithout();
             HCFtwoInteger.hcf(20, 30);
             HCFtwoInteger.hcfusingforloop();
+            Swaptwostrs.swapstring();
         }
     }
 }

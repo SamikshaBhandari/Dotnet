@@ -34,3 +34,6 @@ namespace findHCF
         }
     }
 }
+
+
+//count words

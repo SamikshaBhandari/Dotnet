@@ -29,8 +29,8 @@ class Swaptwostrs
 {
     public static void swapstring()
     {
-        string a = "Samiksha";
-        string b = "Aashika";
+        string a = "samina";
+        string b = "susmita";
         a = a + b;
         b = a.Substring(0, a.Length - b.Length);
         a = a.Substring(b.Length);

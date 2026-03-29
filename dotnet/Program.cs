@@ -1,6 +1,6 @@
 ﻿using Swap;
 using findHCF;
-
+using Constructor;
 //Sum of NUmber
 
 // namespace Samiksha;
@@ -110,11 +110,13 @@ namespace Samiksha
     {
         public static void Main(string[] args)
         {
-            SwaptwoNumbers.swapnumber();
-            Swapwithoutthirdnum.SwaptwoNumberswithout();
-            HCFtwoInteger.hcf(20, 30);
-            HCFtwoInteger.hcfusingforloop();
-            Swaptwostrs.swapstring();
+            // SwaptwoNumbers.swapnumber();
+            // Swapwithoutthirdnum.SwaptwoNumberswithout();
+            // HCFtwoInteger.hcf(20, 30);
+            // HCFtwoInteger.hcfusingforloop();
+            // Swaptwostrs.swapstring();
+            ConstructorExample c = new ConstructorExample();
+            Console.WriteLine($"example of constructor {c.Calc(2, 3)}");
         }
     }
 }

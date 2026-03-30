@@ -1,6 +1,7 @@
 ﻿using Swap;
 using findHCF;
 using Constructor;
+using Overloading;
 //Sum of NUmber
 
 // namespace Samiksha;
@@ -115,8 +116,14 @@ namespace Samiksha
             // HCFtwoInteger.hcf(20, 30);
             // HCFtwoInteger.hcfusingforloop();
             // Swaptwostrs.swapstring();
-            ConstructorExample c = new ConstructorExample();
-            Console.WriteLine($"example of constructor {c.Calc(2, 3)}");
+
+            //example of overloading
+            // ConstructorExample c = new ConstructorExample();
+            // Console.WriteLine($"example of constructor {c.Calc(2, 3)}");
+
+            Overloadingmethod over = new Overloadingmethod();
+            over.Add(20, 50);
+            over.Add(30, 40, 50);
         }
     }
 }

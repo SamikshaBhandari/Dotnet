@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Samiksha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5cb46b7681f1032c6cc988d22c21667029faf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0465602a5a3097a1a9f9346102797321ac7adb41")]
 [assembly: System.Reflection.AssemblyProductAttribute("Samiksha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Samiksha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

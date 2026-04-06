@@ -2,6 +2,8 @@
 using findHCF;
 using Constructor;
 using Overloading;
+using Inheritance;
+
 //Sum of NUmber
 
 // namespace Samiksha;
@@ -121,9 +123,13 @@ namespace Samiksha
             // ConstructorExample c = new ConstructorExample();
             // Console.WriteLine($"example of constructor {c.Calc(2, 3)}");
 
-            Overloadingmethod over = new Overloadingmethod();
-            over.Add(20, 50);
-            over.Add(30, 40, 50);
+            // Overloadingmethod over = new Overloadingmethod();
+            // over.Add(20, 50);
+            // over.Add(30, 40, 50);
+
+            //Inheritance
+            Shape s=new Shape(10,20);
+            s.display();
         }
     }
 }

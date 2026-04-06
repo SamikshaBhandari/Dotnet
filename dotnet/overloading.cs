@@ -7,7 +7,6 @@ namespace Overloading
             int sum = a + b;
             Console.WriteLine("Sum of two number:" + sum);
         }
-
         public void Add(int a, int b, int c)
         {
             int sum = a + b + c;

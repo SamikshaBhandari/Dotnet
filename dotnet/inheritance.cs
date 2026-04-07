@@ -21,7 +21,5 @@ namespace Inheritance
     public Rectangle(float length,float breadth):base(length,breadth){
         Console.WriteLine("class child constructor called");
     }
-
-    
   }
 }

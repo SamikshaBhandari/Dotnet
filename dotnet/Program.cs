@@ -129,7 +129,9 @@ namespace Samiksha
 
             //Inheritance
             Shape s=new Shape(10,20);
+            Rectangle rect=new Rectangle(10.5f,20.5f);
             s.display();
+            rect.display();
         }
     }
 }

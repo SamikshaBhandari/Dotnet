@@ -3,6 +3,7 @@ using findHCF;
 using Constructor;
 using Overloading;
 using Inheritance;
+using ExceptionHandlingDemo;
 
 //Sum of NUmber
 
@@ -128,10 +129,13 @@ namespace Samiksha
             // over.Add(30, 40, 50);
 
             //Inheritance
-            Shape s=new Shape(10,20);
-            Rectangle rect=new Rectangle(10.5f,20.5f);
-            s.display();
-            rect.display();
+            // Shape s=new Shape(10,20);
+            // Rectangle rect=new Rectangle(10.5f,20.5f);
+            // s.display();
+            // rect.display();
+
+//exception handling
+ExceptionHandlingDemo.Exception.ExceptionHandling();
         }
     }
 }
